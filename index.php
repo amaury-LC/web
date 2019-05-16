@@ -2,12 +2,28 @@
 
 <?php include("menu.php"); ?>
 
-<div id ="contenu">
+<div id ="contenuP">
 
-	<div class ="experience">
-		
+	<div id ="contenu"> <!-- debut div -->
 
-	</div>
+		<div class ="experience">
+
+
+		</div>
+		<div class ="experience">
+
+
+		</div>
+		<div class ="experience">
+
+
+		</div> 
+
+	</div> <!-- fin div -->
+
+	
+
+
 
 </div>
 
