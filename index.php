@@ -29,7 +29,7 @@
 
 		<div class ="experience">
 
-			<canvas id="canvas2" width="400" height="225"></canvas>
+			<canvas class="canvas2" id="canvas2" width="400" height="225"></canvas>
 
 			<img id="photo2" src="img/photo2.png" width="400" height="225">
 
@@ -39,7 +39,7 @@
 		</div>
 		<div class ="experience">
 
-			<canvas id="canvas3" width="400" height="225"></canvas>
+			<canvas class="canvas3" id="canvas3" width="400" height="225"></canvas>
 
 			<img id="photo3" src="img/photo3.png" width="400" height="225">
 

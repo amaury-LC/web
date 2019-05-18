@@ -1,27 +1,31 @@
 
+function test(canvasf,imgf,Ccanvas,Cexp){
+var mouv = -230;
 
-mouv = -230;
+var taille = -80;
+var taille2 = 500;
 
-taille = -80;
-taille2 = 500;
+var verif = false;
 
-verif = false;
+console.log(imgf)
 
 
 
 function photo1(){
 
-	mouv = mouv + 2.4;
+	mouv = 0;
+
+	
 
 	if(mouv <= 0){
 
 
-		var canvas = document.getElementById("canvas1");
+		var canvas = document.getElementById(canvasf);
 		var image1 = canvas.getContext("2d");
 
 
 
-		var image = document.getElementById("photo1");
+		var image = document.getElementById(imgf);
 
 		image1.drawImage(image, 0, mouv, 400, 225,);
 		
@@ -31,12 +35,12 @@ function photo1(){
 
 
 
-		var canvas = document.getElementById("canvas1");
+		var canvas = document.getElementById(canvasf);
 		var image1 = canvas.getContext("2d");
 
 
 
-		var image = document.getElementById("photo1");
+		var image = document.getElementById(imgf);
 
 		image1.drawImage(image, 0, 0, 400, 225,);
 
@@ -59,10 +63,10 @@ var WATER_BOTTOM_COLOR = "rgba(254, 7, 93, 1)";
 
 
 
-var htmlCanvas = document.querySelector(".canvasclass");
+var htmlCanvas = document.querySelector(Ccanvas);
 var ctx = htmlCanvas.getContext('2d');
   // var ship = window.document.querySelector('#ship');
-  var container = document.querySelector(".experience1");
+  var container = document.querySelector(Cexp);
 
   var screenWidth;
   var screenHeight;
@@ -118,7 +122,7 @@ var ctx = htmlCanvas.getContext('2d');
   	gradient.addColorStop(.5, WATER_TOP_COLOR);
   	gradient.addColorStop(1, WATER_BOTTOM_COLOR);
 
-  	document.getElementById("canvas1").addEventListener('click', function (event) {
+  	document.getElementById(canvasf).addEventListener('mouseover', function (event) {
 
   		 WATER_TOP_COLOR = "rgba(254, 127, 7, 0.5)";
 		 WATER_BOTTOM_COLOR = "rgba(254, 7, 93, 0.5)";
@@ -171,17 +175,47 @@ var ctx = htmlCanvas.getContext('2d');
   	}
   	else{
 
-  		document.getElementById("canvas1").addEventListener('click', function (event) {
+  	
+
+  		document.getElementById(canvasf).addEventListener('mouseover', function (event) {
+
 
   			verif = true;
 
+
   			
 
+  				
+
   		});
+
+  		document.getElementById(canvasf).addEventListener('mouseout', function (event) {
+
+
+  			verif = false ;
+
+
+  			
+
+  				
+
+  		});
+
+  	
+
+  	
+  		
+
+
 
   		if(verif && taille2>350){
 
   			taille2 += -5;
+  		}
+  		else if(verif != true && taille2 < 500){
+
+  			taille2 += 5;
+  			
   		}
 
   		if (!waveLength) {
@@ -243,7 +277,7 @@ var ctx = htmlCanvas.getContext('2d');
 
 
 
-
+}
 
 
 
@@ -277,17 +311,26 @@ var ctx = htmlCanvas.getContext('2d');
 // wave();
 
 
-var canvas2 = document.getElementById("canvas2");
-var ctx2 = canvas2.getContext("2d");
-var image2 = document.getElementById("photo2");
 
-ctx2.drawImage(image2, 0, 0, 400, 225,);
 
-var canvas3 = document.getElementById("canvas3");
-var ctx3 = canvas3.getContext("2d");
-var image3 = document.getElementById("photo3");
+// var canvas2 = document.getElementById("canvas2");
+// var ctx2 = canvas2.getContext("2d");
+// var image2 = document.getElementById("photo2");
 
-ctx3.drawImage(image3, 0, 0, 400, 225,);
+// ctx2.drawImage(image2, 0, 0, 400, 225,);
+
+// var canvas3 = document.getElementById("canvas3");
+// var ctx3 = canvas3.getContext("2d");
+// var image3 = document.getElementById("photo3");
+
+// ctx3.drawImage(image3, 0, 0, 400, 225,);
+
+
+test("canvas1","photo1",".canvasclass",".experience1");
+test("canvas2","photo2",".canvas2",".experience");
+test("canvas3","photo3",".canvas3",".experience");
+
+
 
 
 
