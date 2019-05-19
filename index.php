@@ -16,7 +16,7 @@
 
 
 					<a href="project/button/project1.php"><div class="experience" id="exp"  ><canvas id = "canvas1" class="canvasclass"></canvas></a>
-					<img id="photo1" src="img/photo1.png" >
+					<img id="photo1" src="img/button.png" >
 
 
 
@@ -49,6 +49,21 @@
 					<canvas class="canvas3" id="canvas3" ></canvas>
 
 					<img id="photo3" src="img/photo3.png" >
+
+
+
+
+				</div> 
+
+			</div>
+
+
+			<div  class="col-xl-4  col-lg-6 col-sm-6 col-12" >
+				<div class ="experience"  >
+
+					<a href="project/paddle/paddle6.html"><canvas class="canvas4" id="canvas4" ></canvas></a>
+
+					<img id="photo4" src="img/site-paddle.png" >
 
 
 

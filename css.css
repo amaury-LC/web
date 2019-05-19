@@ -85,7 +85,7 @@ a:link
 #contenuP{
 
 	width: 100%;
-	margin-top:200px;
+	margin-top:100px;
 	
 }
 
@@ -142,6 +142,22 @@ a:link
 }
 
 #photo3{
+
+	width: 400px;
+	height : 225px;
+
+
+}
+
+#canvas4{
+
+	width: 400px;
+	height : 225px;
+
+
+}
+
+#photo4{
 
 	width: 400px;
 	height : 225px;
@@ -223,6 +239,22 @@ a:link
 
 	}
 
+	#canvas4{
+
+		width: 300px;
+		height : 225px;
+
+
+	}
+
+	#photo4{
+
+		width: 300px;
+		height : 225px;
+
+
+	}
+
 }
 
 
@@ -294,6 +326,22 @@ a:link
 	}
 
 	#photo3{
+
+		width: 300px;
+		height : 225px;
+
+
+	}
+
+	#canvas4{
+
+		width: 300px;
+		height : 225px;
+
+
+	}
+
+	#photo4{
 
 		width: 300px;
 		height : 225px;

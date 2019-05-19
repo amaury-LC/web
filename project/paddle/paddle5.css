@@ -1,0 +1,190 @@
+#menu_haut{
+
+	background: #003a49;
+	width: 1349px;
+	height: 60px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+
+}
+
+#nom_menu{
+
+	width: 479px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+
+
+
+
+
+}
+#icon{
+
+
+
+	display: flex;
+	justify-content: space-around;
+}
+
+
+#video1{
+
+	width: 1349px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+#menu{
+
+	background: #13b6cb;
+	width: 1349px;
+	height: 40px;
+
+
+
+}
+
+#titre_video{
+
+	padding-top : 50px;
+
+	display : flex;
+
+}
+
+#photo{
+
+	width: 1349px;
+	height: 250px;
+
+
+
+
+
+
+}
+
+#millieux{
+
+	background: #f4f4f3;
+	width: 1349px;
+	height: 1000px; 
+	display: flex;
+	display: flex;
+	flex-direction: column;
+
+
+
+
+
+
+}
+
+#P2{
+
+
+	display: flex;
+	flex-direction: column;
+	margin-left: 550px;
+	margin-top: 0px;
+
+
+
+
+
+
+}
+
+#spe{
+
+
+	background: #d9d9d9;
+	width: 631px;
+	height : 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center ;
+
+
+
+}
+
+
+
+
+
+
+#millieux2{
+
+	display : flex;
+
+
+}
+
+#millieux1{
+
+
+	width: 1349px;
+	height: 750px; 
+
+
+
+}
+
+#millieux_texte{
+
+	display: flex;
+	flex-direction: column;
+
+
+
+
+
+
+
+
+
+
+}
+.dimension{
+
+	display: flex;
+
+}
+
+#logo1{
+
+	display: flex;
+}
+
+#video{
+
+	background: #f4f4f3;
+
+	width: 1349px;
+	height: 451px; 
+
+
+
+}
+
+#fin{
+
+
+	width: 1349px;
+	height: 1176px; 
+
+
+
+
+}
+
+
