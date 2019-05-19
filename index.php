@@ -5,7 +5,7 @@
 
 <!-- 	#efefef -->
 
-	<div id ="contenu"> <!-- debut div -->
+	<div id ="contenu" > <!-- debut div -->
 
 	
 

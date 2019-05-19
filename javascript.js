@@ -7,6 +7,8 @@ var taille2 = 500;
 
 var verif = false;
 
+var bas = false;
+
 console.log(imgf)
 
 
