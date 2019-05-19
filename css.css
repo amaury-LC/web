@@ -149,8 +149,6 @@ a:link
 
 }
 
-
-
 @media only screen and (max-width:800px) {
 
 
@@ -171,7 +169,86 @@ a:link
 
 		width: 300px;
 		height: 225px;
-		
+		margin-left : -5px;
+
+
+
+	}
+
+	#canvas1{
+
+		width: 300px;
+		height : 225px;
+
+
+	}
+
+	#photo1{
+
+		width: 300px;
+		height : 225px;
+
+
+	}
+
+	#canvas2{
+
+		width: 300px;
+		height : 225px;
+
+
+	}
+
+	#photo2{
+
+		width: 300px;
+		height : 225px;
+
+
+	}
+
+	#canvas3{
+
+		width: 300px;
+		height : 225px;
+
+
+	}
+
+	#photo3{
+
+		width: 300px;
+		height : 225px;
+
+
+	}
+
+}
+
+
+
+@media only screen and (max-width:600px) {
+
+
+
+
+	#sous-menu-phone{
+
+		display : block;
+	}
+
+	#sous_menu{
+
+		display: none;
+	}
+
+	.experience{
+
+
+		width: 300px;
+		height: 225px;
+		margin-left : auto;
+
 
 
 	}
