@@ -1,3 +1,40 @@
+<div class = "container">
+
+	<div class="row" id="sous-menu-phone">
+
+		<div class="col-6">
+
+			<a href = "cv.php"><div><p class = "titre_menu">CV</p></div></a>
+			
+
+		</div>
+		<div class="col-6">
+
+			<div><p class = "titre_menu">BLOG</p></div>
+			
+
+		</div>
+		<div class="col-6">
+
+			<div><p class = "titre_menu">GITHUB</p></div>
+			
+
+		</div>
+
+
+		
+
+
+	</div>
+	
+
+
+
+</div>
+
+
+
+
 <script type="text/javascript" src="javascript.js"></script>
 <script type="text/javascript"src='jquerry.js'></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

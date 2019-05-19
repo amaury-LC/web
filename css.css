@@ -29,6 +29,11 @@ header{
 	color : #00a4ae;
 }
 
+#sous-menu-phone{
+
+	display : none;
+}
+
 #sous_menu{
 	display: flex;
 	justify-content: space-around;
@@ -99,9 +104,14 @@ a:link
 @media only screen and (max-width:800px) {
 
 
+	#sous-menu-phone{
+
+		display : block;
+	}
+
 	#sous_menu{
 
-		display : none;
+		display: none;
 	}
 
 }
