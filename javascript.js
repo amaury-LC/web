@@ -1,5 +1,22 @@
+var Lscreen=screen.width;
+
 
 function test(canvasf,imgf,Ccanvas,Cexp){
+
+
+
+
+
+
+
+tailleE = 400;
+
+if(Lscreen < 900){
+
+  tailleE = 300;
+  
+}
+
 var mouv = -230;
 
 var taille = -80;
@@ -29,7 +46,7 @@ function photo1(){
 
 		var image = document.getElementById(imgf);
 
-		image1.drawImage(image, 0, 0, 400, 225,);
+		image1.drawImage(image, 0, 0, tailleE, 225,);
 		
 	
 

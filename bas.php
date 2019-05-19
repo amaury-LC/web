@@ -4,7 +4,7 @@
 
 		<div class="col-6">
 
-			<a href = "cv.php"><div><p class = "titre_menu">CV</p></div></a>
+			<!-- <a href = "cv.php"><div><p class = "titre_menu">CV</p></div></a> -->
 			
 
 		</div>
@@ -16,7 +16,7 @@
 		</div>
 		<div class="col-6">
 
-			<div><p class = "titre_menu">GITHUB</p></div>
+			<a href="https://github.com/amaury-LC/"><div><p class = "titre_menu">GITHUB</p></div></a>
 			
 
 		</div>

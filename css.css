@@ -101,7 +101,59 @@ a:link
 
 }
 
+#canvas1{
+
+	width: 400px;
+	height : 225px;
+
+
+}
+
+#photo1{
+
+	width: 400px;
+	height : 225px;
+
+
+}
+
+#canvas2{
+
+	width: 400px;
+	height : 225px;
+
+
+}
+
+#photo2{
+
+	width: 400px;
+	height : 225px;
+
+
+}
+
+#canvas3{
+
+	width: 400px;
+	height : 225px;
+
+
+}
+
+#photo3{
+
+	width: 400px;
+	height : 225px;
+
+
+}
+
+
+
 @media only screen and (max-width:800px) {
+
+
 
 
 	#sous-menu-phone{
@@ -112,6 +164,64 @@ a:link
 	#sous_menu{
 
 		display: none;
+	}
+
+	.experience{
+
+
+		width: 300px;
+		height: 225px;
+		
+
+
+	}
+
+	#canvas1{
+
+		width: 300px;
+		height : 225px;
+
+
+	}
+
+	#photo1{
+
+		width: 300px;
+		height : 225px;
+
+
+	}
+
+	#canvas2{
+
+		width: 300px;
+		height : 225px;
+
+
+	}
+
+	#photo2{
+
+		width: 300px;
+		height : 225px;
+
+
+	}
+
+	#canvas3{
+
+		width: 300px;
+		height : 225px;
+
+
+	}
+
+	#photo3{
+
+		width: 300px;
+		height : 225px;
+
+
 	}
 
 }

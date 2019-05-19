@@ -15,8 +15,8 @@
 
 
 
-					<canvas id = "canvas1" class="canvasclass" width="400" height="225"></canvas>
-					<img id="photo1" src="img/photo1.png" width="400" height="225">
+					<canvas id = "canvas1" class="canvasclass"></canvas>
+					<img id="photo1" src="img/photo1.png" >
 
 
 
@@ -34,9 +34,9 @@
 
 				<div class ="experience"  >
 
-					<canvas class="canvas2" id="canvas2" width="400" height="225"></canvas>
+					<canvas class="canvas2" id="canvas2" ></canvas>
 
-					<img id="photo2" src="img/photo2.png" width="400" height="225">
+					<img id="photo2" src="img/photo2.png" >
 
 
 
@@ -46,9 +46,9 @@
 			<div  class="col-xl-4  col-lg-6 col-sm-12 col-12" >
 				<div class ="experience"  >
 
-					<canvas class="canvas3" id="canvas3" width="400" height="225"></canvas>
+					<canvas class="canvas3" id="canvas3" ></canvas>
 
-					<img id="photo3" src="img/photo3.png" width="400" height="225">
+					<img id="photo3" src="img/photo3.png" >
 
 
 
