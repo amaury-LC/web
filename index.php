@@ -11,11 +11,11 @@
 
 
 			<div  class="col-xl-4 col-lg-6 col-sm-6 col-12"   >
-				<div class="experience" id="exp"  >
+				
 
 
 
-					<canvas id = "canvas1" class="canvasclass"></canvas>
+					<a href="project/button/project1.php"><div class="experience" id="exp"  ><canvas id = "canvas1" class="canvasclass"></canvas></a>
 					<img id="photo1" src="img/photo1.png" >
 
 
