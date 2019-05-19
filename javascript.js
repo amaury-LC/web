@@ -303,7 +303,7 @@ var ctx = htmlCanvas.getContext('2d');
 
 
 
-test("canvas1","photo1",".canvasclass",".experience1");
+test("canvas1","photo1",".canvasclass",".experience");
 test("canvas2","photo2",".canvas2",".experience");
 test("canvas3","photo3",".canvas3",".experience");
 
