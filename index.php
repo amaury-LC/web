@@ -10,7 +10,7 @@
 		<div class="row"   >
 
 
-			<div  class="col-xl-4 col-lg-6 col-sm-1 col-12"   >
+			<div  class="col-xl-4 col-lg-6 col-sm-12 col-12"   >
 				<div class="experience" id="exp"  >
 
 
@@ -29,7 +29,7 @@
 				</div>
 
 			</div>
-			<div  class="col-xl-4 col-lg-6 col-sm-1 col-12" >
+			<div  class="col-xl-4 col-lg-6 col-sm-12 col-12" >
 
 
 				<div class ="experience"  >
@@ -43,7 +43,7 @@
 
 				</div>
 			</div>
-			<div  class="col-xl-4  col-lg-6 col-sm-1 col-12" >
+			<div  class="col-xl-4  col-lg-6 col-sm-12 col-12" >
 				<div class ="experience"  >
 
 					<canvas class="canvas3" id="canvas3" width="400" height="225"></canvas>

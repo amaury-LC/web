@@ -96,6 +96,16 @@ a:link
 
 }
 
+@media only screen and (max-width:800px) {
+
+
+	#sous_menu{
+
+		display : none;
+	}
+
+}
+
 
 
 
