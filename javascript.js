@@ -110,8 +110,12 @@ var ctx = htmlCanvas.getContext('2d');
 
   	document.getElementById(canvasf).addEventListener('mouseover', function (event) {
 
+  		if(bas){
+
   		 WATER_TOP_COLOR = "rgba(254, 127, 7, 0.5)";
 		 WATER_BOTTOM_COLOR = "rgba(254, 7, 93, 0.5)";
+
+		}
 
   			
 
@@ -158,12 +162,16 @@ var ctx = htmlCanvas.getContext('2d');
 
   			waves[x] = wave[x] + wave2[x] + wave3[x] + taille / 2;
   		}
+
+  		
   	}
   	else{
 
   	
 
   		document.getElementById(canvasf).addEventListener('mouseover', function (event) {
+
+  			bas = true;
 
 
   			verif = true;
@@ -293,23 +301,6 @@ var ctx = htmlCanvas.getContext('2d');
 
 
 
-// requestAnimationFrame(photo1);
-// wave();
-
-
-
-
-// var canvas2 = document.getElementById("canvas2");
-// var ctx2 = canvas2.getContext("2d");
-// var image2 = document.getElementById("photo2");
-
-// ctx2.drawImage(image2, 0, 0, 400, 225,);
-
-// var canvas3 = document.getElementById("canvas3");
-// var ctx3 = canvas3.getContext("2d");
-// var image3 = document.getElementById("photo3");
-
-// ctx3.drawImage(image3, 0, 0, 400, 225,);
 
 
 test("canvas1","photo1",".canvasclass",".experience1");
