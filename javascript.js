@@ -15,26 +15,11 @@ console.log(imgf)
 
 function photo1(){
 
-	mouv = 0;
+	
 
 	
 
-	if(mouv <= 0){
-
-
-		var canvas = document.getElementById(canvasf);
-		var image1 = canvas.getContext("2d");
-
-
-
-		var image = document.getElementById(imgf);
-
-		image1.drawImage(image, 0, mouv, 400, 225,);
-		
-	}
-
-	else{
-
+	
 
 
 		var canvas = document.getElementById(canvasf);
@@ -45,9 +30,8 @@ function photo1(){
 		var image = document.getElementById(imgf);
 
 		image1.drawImage(image, 0, 0, 400, 225,);
-
-
-	}
+		
+	
 
 
 
