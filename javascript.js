@@ -60,8 +60,8 @@ function photo1(){
 
 // var WATER_TOP_COLOR = "#FE7F07";
 // var WATER_BOTTOM_COLOR = "#FE075D";
-var WATER_TOP_COLOR = "rgba(254, 127, 7, 1)";
-var WATER_BOTTOM_COLOR = "rgba(254, 7, 93, 1)";
+var WATER_TOP_COLOR = "rgba(254, 127, 7, 0)";
+var WATER_BOTTOM_COLOR = "rgba(254, 7, 93, 0)";
 
 
 
@@ -103,9 +103,12 @@ var ctx = htmlCanvas.getContext('2d');
   }
 
   function draw() {
-  	ctx.clearRect(0, 0, screenWidth, screenHeight);
 
-  	photo1();
+
+  	ctx.clearRect(0, 0, screenWidth, screenHeight);
+    photo1();
+
+  	
 
 
 
@@ -138,10 +141,18 @@ var ctx = htmlCanvas.getContext('2d');
 
   		});
 
+
+
   	ctx.fillStyle = gradient;
   	ctx.lineTo(0, screenHeight);
 
+
+
   	ctx.fill();
+
+
+
+
 
 
   	requestAnimationFrame(draw);
@@ -163,7 +174,7 @@ var ctx = htmlCanvas.getContext('2d');
   function moveWaves() {
   	
   	if(taille < 500){
-  		taille = taille + 5 ;
+  		taille = taille + 1000 ;
   		if (!waveLength) {
   			initializeWaves();
   		}
@@ -177,7 +188,7 @@ var ctx = htmlCanvas.getContext('2d');
   				wave3[x] = wave3[x - 1];
   			}
 
-  			waves[x] = wave[x] + wave2[x] + wave3[x] + taille / 2;
+  			waves[x] = wave[x] + wave2[x] + wave3[x] + 500 / 2;
   		}
 
   		

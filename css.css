@@ -11,12 +11,26 @@ body{
 	margin : 0px;
 }
 
+.lien{
+	display: block;
+}
+
 header{
 
 	width: 100%;
 	height: 58px;
 	display: flex;
 	justify-content: space-between;
+}
+
+a{
+
+	display: none;
+}
+
+#visible{
+
+	display : block;
 }
 
 #name{
@@ -164,6 +178,88 @@ a:link
 
 
 }
+
+
+#photoPr{
+
+	background-image: url("img/730cd1f8-3ab2-4ef0-8573-8d39054f199f.jpg");
+	background-position: top; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+	position: relative;
+	width: 100%;
+	height: 600px;
+
+
+
+
+}
+
+#photoPr1{
+
+	background-image: url("img/Screenshot_2019-05-26 Screenshot.jpg");
+	background-position: top; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+	position: relative;
+	width: 100%;
+	height: 600px;
+
+
+
+}
+#photoPr2{
+
+	background-image: url("img/button.png");
+	background-position: top; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+	position: relative;
+	width: 100%;
+	height: 300px;
+
+
+
+}
+#photoPr3{
+
+	background-image: url("img/periodic.png");
+	background-position: top; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+	position: relative;
+	width: 100%;
+	height: 300px;
+
+
+
+}
+
+#photoPr:hover{
+
+	opacity: 0.8;
+	transition: opacity 0.4s;
+}
+
+#photoPr1:hover{
+
+	opacity: 0.8;
+	transition: opacity 0.4s;
+}
+
+#photoPr2:hover{
+
+	opacity: 0.8;
+	transition: opacity 0.4s;
+}
+
+#photoPr3:hover{
+
+	opacity: 0.8;
+	transition: opacity 0.4s;
+}
+
+
 
 @media only screen and (max-width:800px) {
 

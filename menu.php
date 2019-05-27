@@ -16,13 +16,13 @@
 
 
 		<div>
-			<a href="index.php"><h1 id="name" >AMAURY LC</h1></a>
+			<a id="visible" href="index.php"><h1 id="name" >AMAURY LC</h1></a>
 		</div>
 		<div id = "sous_menu">
 
 			<!-- <a href = "cv.php"><div><p class = "titre_menu">CV</p></div></a> -->
 			<div><p class = "titre_menu">BLOG</p></div>
-			<a href="https://github.com/amaury-LC/"><div><p class = "titre_menu">GITHUB</p></div></a>
+			<a id="visible" href="https://github.com/amaury-LC/"><div><p class = "titre_menu">GITHUB</p></div></a>
 
 
 

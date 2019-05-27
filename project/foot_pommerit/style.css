@@ -1,0 +1,1465 @@
+
+body{
+
+	height: 1300px;
+	margin: 0px;
+	padding:0px;
+
+}
+
+a{
+
+	display: none;
+}
+
+
+img.superbg {
+	position:fixed;
+	top:0px;
+	left:0;
+	z-index:-1;
+
+}
+
+/*#c{
+
+	background: yellow;
+	height: 156px;
+	width: 23.6%;
+	margin: 0px;
+	position: absolute;
+	left: 62%;top: 531px;
+
+	}*/
+
+
+	
+
+	.rubrique{
+
+		height: 156px;
+		width: 100%;
+		overflow: hidden;
+		
+		background-image: url("img/TOUR-BERNABEU-13-CHAMPIONS_3AM3149Thumb.jpg");
+		background-position: top; /* Center the image */
+		background-repeat: no-repeat; /* Do not repeat the image */
+		background-size: cover; /* Resize the background image to cover the entire container */
+		position: relative;
+
+
+
+
+
+	}
+
+	.rubrique_1{
+
+	
+
+		width: 100%;
+
+		position: absolute;
+		overflow: hidden;
+		height: 158px;
+
+		
+
+
+	}
+
+	.rubrique_1::before{
+
+		content: "";
+		position: absolute;
+
+		
+
+
+		height: 158px;
+		width: 100%;
+		background: #14387F;
+		transform: skew(30deg) translate(-130%,0px);
+		
+		opacity: 0.8;
+		transition: all 0.45s ease;
+
+
+
+
+	}
+
+	.v1:hover .rubrique_1:before{
+
+		
+
+		
+		transform  : skew(30deg) translate(-20%,0px);
+
+
+		
+
+
+
+
+	}
+
+	.rubrique_1::after{
+
+		content: "";
+		position: absolute;
+
+		height: 312px;
+		width: 100%;
+		background-color: #14387F;
+		transform: skew(-30deg) translate(-130%,0px);
+		
+		opacity: 0.8;
+		transition: all 0.45s ease;
+
+
+
+		
+
+
+
+
+	}
+
+	.v1:hover .rubrique_1:after{
+
+		
+
+		
+		transform  : skew(-30deg) translate(-12%,0px);
+
+
+
+		
+		
+		
+
+		
+
+
+
+
+	}
+
+
+
+	.rubrique_2::before{
+
+		content: "";
+		position: absolute;
+
+		height: 158px;
+		width: 100%;
+		background-color: #DA0019;
+		transform: skew(30deg) translate(-400%,0px);
+		
+		opacity: 0.8;
+		transition: all 0.45s ease;
+		z-index: 2;
+		box-shadow: 0 0 20px rgba(0,0,0,7);
+
+		
+
+		
+
+		
+
+		
+		
+
+
+
+
+	}
+
+	.v1:hover .rubrique_2:before{
+
+		
+
+		
+		transform  : skew(30deg) translate(-35%,0px);
+
+
+
+		
+		
+		
+
+		
+
+
+
+
+	}
+
+	.rubrique_2::after{
+
+		content: "";
+		position: absolute;
+
+		height: 312px;
+		width: 100%;
+		background-color: #DA0019;
+		transform: skew(-30deg) translate(-800%,0px);
+		z-index: 1;
+		
+		opacity: 0.8;
+		transition: all 0.45s ease;
+		box-shadow: 0 0 20px rgba(0,0,0,7);
+
+		
+
+		
+
+		
+
+		
+		
+
+
+
+
+	}
+
+	.v1:hover .rubrique_2:after{
+
+		
+
+		
+		transform  : skew(-30deg) translate(-30%,0px);
+
+
+
+		
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+	.rubrique2_2::after{
+
+		content: "";
+		position: absolute;
+
+		height: 312px;
+		width: 750px;
+		background-color: #14387F;
+		transform: skew(-30deg) translate(-120%,0px);
+		
+		opacity: 0.8;
+		transition: all 0.45s ease;
+
+
+
+		
+
+
+
+
+	}
+
+	.rubrique2_2{
+
+		
+		width: 100%;
+		position: absolute;
+		overflow: hidden;
+		height: 312px;
+		
+		
+
+
+
+	}
+
+	
+
+
+
+
+
+
+	.rubrique2{
+
+
+		width: 100%;
+		overflow: hidden;
+		height: 312px;
+		position: relative;
+		background-image: url("img/l-equipe-en-compagnie-des-entraineurs-serge-morcelle-et_3137440.jpg");
+		background-position: top; /* Center the image */
+		background-repeat: no-repeat; /* Do not repeat the image */
+		background-size: cover; /* Resize the background image to cover the entire container */
+		
+		
+
+
+
+
+
+	}
+
+	.rubrique2_2::before{
+
+		content: "";
+		position: absolute;
+		
+
+
+		height: 312px;
+		width: 750px;
+		background: #14387F;
+		transform: skew(30deg) translate(-130%,0px);
+		
+		opacity: 0.8;
+		transition: all 0.45s ease;
+		z-index: 4;
+
+
+
+
+		
+
+
+
+
+	}
+
+	.rubrique2_2::after{
+
+		content: "";
+		position: absolute;
+
+		height: 312px;
+		width: 750px;
+		background-color: #14387F;
+		transform: skew(-30deg) translate(-120%,0px);
+		
+		opacity: 0.8;
+		transition: all 0.45s ease;
+		z-index: 4;
+
+
+
+		
+
+
+
+
+	}
+
+	.rubrique2::before{
+
+		content: "";
+		position: absolute;
+
+		height: 312px;
+		width: 750px;
+		background-color: #DA0019;
+		transform: skew(30deg) translate(-400%,0px);
+		
+		opacity: 0.8;
+		transition: all 0.45s ease;
+		z-index: 5;
+		box-shadow: 0 0 20px rgba(0,0,0,7);
+
+		
+
+		
+
+		
+
+		
+		
+
+
+
+
+	}
+
+
+
+	.rubrique2::after{
+
+		content: "";
+		position: absolute;
+
+		height: 312px;
+		width: 750px;
+		background-color: #DA0019;
+		transform: skew(-30deg) translate(-800%,0px);
+		
+		opacity: 0.8;
+		transition: all 0.45s ease;
+		box-shadow: 0 0 20px rgba(0,0,0,7);
+		z-index: 6;
+
+		
+
+		
+
+		
+
+		
+		
+
+
+
+
+	}
+	
+	.v:hover .rubrique2:before{
+
+		
+
+		
+		transform  : skew(30deg) translate(-35%,0px);
+
+
+
+		
+		
+		
+
+		
+
+
+
+
+	}
+
+	.v:hover .rubrique2_2:before{
+
+		
+
+		
+		transform  : skew(30deg) translate(-20%,0px);
+
+
+
+		
+		
+		
+
+		
+
+
+
+
+	}
+
+	.v:hover .rubrique2_2:after{
+
+		
+
+		
+		transform  : skew(-30deg) translate(-12%,0px);
+
+
+
+		
+		
+		
+
+		
+
+
+
+
+	}
+
+	.v:hover .rubrique2:after{
+
+		
+
+		
+		transform  : skew(-30deg) translate(-30%,0px);
+
+
+
+		
+
+
+
+
+	}
+
+	
+
+	
+
+
+
+
+
+
+
+
+	.rubrique3{
+
+		height: 158px;
+		width: 100%;
+		overflow: hidden;
+		position: relative;
+		background-image: url("img/151995.jpg");
+		background-position: center; /* Center the image */
+		background-repeat: no-repeat; /* Do not repeat the image */
+		background-size: cover; /* Resize the background image to cover the entire container */
+
+
+
+
+
+
+	}
+
+	.rubrique3:hover .rubrique_1:before{
+
+		transform  : skew(30deg) translate(-20%,0px);
+
+
+
+
+	}
+
+	.rubrique3:hover .rubrique_1:after{
+
+		
+
+		
+		transform  : skew(-30deg) translate(-12%,0px);
+
+
+
+		
+		
+		
+
+		
+
+
+
+
+	}
+
+	.rubrique3:hover .rubrique_2:before{
+
+		
+
+		
+		transform  : skew(30deg) translate(-35%,0px);
+
+
+
+		
+		
+		
+
+		
+
+
+
+
+	}
+
+	.rubrique3:hover .rubrique_2:after{
+
+		
+
+		
+		transform  : skew(-30deg) translate(-30%,0px);
+
+
+
+		
+
+
+
+
+	}
+
+	.rubrique4{
+
+		height: 158px;
+		width: 100%;
+		overflow: hidden;
+		position: relative;
+		background-image: url("img/logo__oht76k.jpg");
+		background-position: center; /* Center the image */
+		background-repeat: no-repeat; /* Do not repeat the image */
+		background-size: cover; /* Resize the background image to cover the entire container */
+
+
+
+
+
+
+	}
+
+	.rubrique4:hover .rubrique_1:before{
+
+		transform  : skew(30deg) translate(-20%,0px);
+
+
+
+
+	}
+
+	.rubrique4:hover .rubrique_1:after{
+
+		
+
+		
+		transform  : skew(-30deg) translate(-12%,0px);
+
+
+
+		
+		
+		
+
+		
+
+
+
+
+	}
+
+	.rubrique4:hover .rubrique_2:before{
+
+		
+
+		
+		transform  : skew(30deg) translate(-35%,0px);
+
+
+
+		
+		
+		
+
+		
+
+
+
+
+	}
+
+	.rubrique4:hover .rubrique_2:after{
+
+		
+
+		
+		transform  : skew(-30deg) translate(-30%,0px);
+
+
+
+		
+
+
+
+
+	}
+
+	.rubrique5{
+
+		height: 158px;
+		width: 100%;
+		overflow: hidden;
+		position: relative;
+		background-image: url("img/15df426e-d1a3-4898-bd09-ad43fd0c7366.png");
+		background-position: top; /* Center the image */
+		background-repeat: no-repeat; /* Do not repeat the image */
+		background-size: cover; /* Resize the background image to cover the entire container */
+
+
+
+
+
+
+	}
+
+
+	.rubrique5:hover .rubrique_1:before{
+
+		transform  : skew(30deg) translate(-20%,0px);
+
+
+
+
+	}
+
+	.rubrique5:hover .rubrique_1:after{
+
+		
+
+		
+		transform  : skew(-30deg) translate(-12%,0px);
+
+
+
+		
+		
+		
+
+		
+
+
+
+
+	}
+
+	.rubrique5:hover .rubrique_2:before{
+
+		
+
+		
+		transform  : skew(30deg) translate(-35%,0px);
+
+
+
+		
+		
+		
+
+		
+
+
+
+
+	}
+
+	.rubrique5:hover .rubrique_2:after{
+
+		
+
+		
+		transform  : skew(-30deg) translate(-30%,0px);
+
+
+
+		
+
+
+
+
+	}
+
+	.rubrique6{
+
+		height: 150px;
+		width: 100%;
+		overflow: hidden;
+		position: relative;
+		background-image: url("img/experience_rc.jpg");
+		background-position: top; /* Center the image */
+		background-repeat: no-repeat; /* Do not repeat the image */
+		background-size: cover; /* Resize the background image to cover the entire container */
+
+
+
+
+
+
+	}
+
+	.rubrique6:hover .rubrique_1:before{
+
+		transform  : skew(30deg) translate(-20%,0px);
+
+
+
+
+	}
+
+	.rubrique6:hover .rubrique_1:after{
+
+		
+
+		
+		transform  : skew(-30deg) translate(-12%,0px);
+
+
+
+		
+		
+		
+
+		
+
+
+
+
+	}
+
+	.rubrique6:hover .rubrique_2:before{
+
+		
+
+		
+		transform  : skew(30deg) translate(-35%,0px);
+
+
+
+		
+		
+		
+
+		
+
+
+
+
+	}
+
+	.rubrique6:hover .rubrique_2:after{
+
+		
+
+		
+		transform  : skew(-30deg) translate(-30%,0px);
+
+
+
+		
+
+
+
+
+	}
+
+	.rubrique7{
+
+		height: 158px;
+		width: 100%;
+		overflow: hidden;
+		position: relative;
+		background-image: url("img/93419480.jpg");
+		background-position: top; /* Center the image */
+		background-repeat: no-repeat; /* Do not repeat the image */
+		background-size: cover; /* Resize the background image to cover the entire container */
+
+
+
+
+
+
+	}
+
+	.rubrique7:hover .rubrique_1:before{
+
+		transform  : skew(30deg) translate(-20%,0px);
+
+
+
+
+	}
+
+	.rubrique7:hover .rubrique_1:after{
+
+		
+
+		
+		transform  : skew(-30deg) translate(-12%,0px);
+
+
+
+		
+		
+		
+
+		
+
+
+
+
+	}
+
+	.rubrique7:hover .rubrique_2:before{
+
+		
+
+		
+		transform  : skew(30deg) translate(-35%,0px);
+
+
+
+		
+		
+		
+
+		
+
+
+
+
+	}
+
+	.rubrique7:hover .rubrique_2:after{
+
+		
+
+		
+		transform  : skew(-30deg) translate(-30%,0px);
+
+
+
+		
+
+
+
+
+	}
+
+	.rubrique8{
+
+		height: 158px;
+		width: 100%;
+		overflow: hidden;
+		position: relative;
+		background-image: url("img/493-bildk5-20180514115918.jpg");
+		background-position: bottom; /* Center the image */
+		background-repeat: no-repeat; /* Do not repeat the image */
+		background-size: cover; /* Resize the background image to cover the entire container */
+
+
+
+
+
+
+	}
+
+
+
+	.rubrique8:hover .rubrique_1:before{
+
+		transform  : skew(30deg) translate(-20%,0px);
+
+
+
+
+	}
+
+	.rubrique8:hover .rubrique_1:after{
+
+		
+
+		
+		transform  : skew(-30deg) translate(-12%,0px);
+
+
+
+		
+		
+		
+
+		
+
+
+
+
+	}
+
+	.rubrique8:hover .rubrique_2:before{
+
+		
+
+		
+		transform  : skew(30deg) translate(-35%,0px);
+
+
+
+		
+		
+		
+
+		
+
+
+
+
+	}
+
+	.rubrique8:hover .rubrique_2:after{
+
+		
+
+		
+		transform  : skew(-30deg) translate(-30%,0px);
+
+
+
+		
+
+
+
+
+	}
+
+	.rubrique9{
+
+		height: 158px;
+		width: 100%;
+		overflow: hidden;
+		position: absolute;
+		background-image: url("img/acces_rc.jpg");
+		background-position: top; /* Center the image */
+		background-repeat: no-repeat; /* Do not repeat the image */
+		background-size: cover; /* Resize the background image to cover the entire container */
+
+
+	}
+
+
+	.rubrique9:hover .rubrique_1:before{
+
+		transform  : skew(30deg) translate(-20%,0px);
+
+
+
+
+	}
+
+	.rubrique9:hover .rubrique_1:after{
+
+		
+
+		
+		transform  : skew(-30deg) translate(-12%,0px);
+
+
+
+		
+		
+		
+
+		
+
+
+
+
+	}
+
+	.rubrique9:hover .rubrique_2:before{
+
+		
+
+		
+		transform  : skew(30deg) translate(-35%,0px);
+
+
+
+		
+		
+		
+
+		
+
+
+
+
+	}
+
+	.rubrique9:hover .rubrique_2:after{
+
+		
+
+		
+		transform  : skew(-30deg) translate(-30%,0px);
+
+
+
+		
+
+
+
+
+	}
+
+	.apparition{
+
+		left : 2%;
+		top:5%;
+		text-transform: uppercase;
+		color : white;
+		font-size: 1.3em;
+		
+		
+		opacity: 0;
+		transition: 0.8s;
+		position: absolute;
+		z-index: 8
+	}
+
+	.v:hover .apparition{
+
+		opacity: 0.8;
+
+
+
+		
+
+
+	}
+
+	.apparition1{
+
+		left : 2%;
+		top:30%;
+		text-transform: uppercase;
+		color : white;
+		font-size: 0.8em;
+		
+		opacity: 0;
+		transition: 0.8s;
+		position: absolute;
+		z-index: 8;
+	}
+
+	.v:hover .apparition1{
+
+		opacity: 0.8;
+
+
+
+		
+
+
+	}
+
+	.v1:hover .apparition1{
+
+		opacity: 0.8;
+
+
+
+		
+
+
+	}
+
+	.v1:hover .apparition{
+
+		opacity: 0.8;
+		
+
+
+
+		
+
+
+	}
+
+	.apparition2{
+
+		left : 2%;
+		top:10%;
+		text-transform: uppercase;
+		color : white;
+		font-size: 1.2em;
+		
+		opacity: 0;
+		transition: 0.8s;
+		position: absolute;
+		z-index: 8;
+	}
+
+	.apparition1_2{
+
+		left : 2%;
+		top:45%;
+		text-transform: uppercase;
+		color : white;
+		font-size: 0.8em;
+		
+		opacity: 0;
+		transition: 0.8s;
+		position: absolute;
+		z-index: 8;
+	}
+
+
+
+
+
+
+	.rubrique8:hover .apparition2{
+
+		opacity: 0.8;
+
+
+
+		
+
+
+	}
+
+	.rubrique8:hover .apparition1_2{
+
+		opacity: 0.8;
+		
+
+
+
+		
+
+
+	}
+
+	.apparition2_7{
+
+		left : 2%;
+		top:10%;
+		text-transform: uppercase;
+		color : white;
+		font-size: 0.9em;
+		
+		opacity: 0;
+		transition: 0.8s;
+		position: absolute;
+		z-index: 8;
+	}
+
+	.apparition1_2_7{
+
+		left : 2%;
+		top:40%;
+		text-transform: uppercase;
+		color : white;
+		font-size: 0.8em;
+		
+		opacity: 0;
+		transition: 0.7s;
+		position: absolute;
+		z-index: 8;
+	}
+
+
+	.rubrique7:hover .apparition2_7{
+
+		opacity: 0.8;
+
+
+
+		
+
+
+	}
+
+	.rubrique7:hover .apparition1_2_7{
+
+		opacity: 0.8;
+		
+
+
+
+		
+
+
+	}
+
+	.apparition2_6{
+
+		left : 2%;
+		top:10%;
+		text-transform: uppercase;
+		color : white;
+		font-size: 0.9em;
+		
+		opacity: 0;
+		transition: 0.8s;
+		position: absolute;
+		z-index: 8;
+	}
+
+	.apparition1_2_6{
+
+		left : 2%;
+		top:40%;
+		text-transform: uppercase;
+		color : white;
+		font-size: 0.8em;
+		
+		opacity: 0;
+		transition: 0.7s;
+		position: absolute;
+		z-index: 8;
+	}
+
+
+	.rubrique6:hover .apparition2_6{
+
+		opacity: 0.8;
+
+
+
+		
+
+
+	}
+
+	.rubrique6:hover .apparition1_2_6{
+
+		opacity: 0.8;
+		
+
+
+
+		
+
+
+	}
+
+	.apparition2_3{
+
+		left : 2%;
+		top:10%;
+		text-transform: uppercase;
+		color : white;
+		font-size: 0.9em;
+		
+		opacity: 0;
+		transition: 0.8s;
+		position: absolute;
+		z-index: 8;
+	}
+
+	.apparition1_2_3{
+
+		left : 2%;
+		top:40%;
+		text-transform: uppercase;
+		color : white;
+		font-size: 0.8em;
+		
+		opacity: 0;
+		transition: 0.7s;
+		position: absolute;
+		z-index: 8;
+	}
+
+
+	.rubrique3:hover .apparition2_3{
+
+		opacity: 0.8;
+
+
+
+		
+
+
+	}
+
+	.rubrique3:hover .apparition1_2_3{
+
+		opacity: 0.8;
+		
+
+
+
+		
+
+
+	}
+
+	.rubrique4:hover .apparition2_3{
+
+		opacity: 0.8;
+
+
+
+		
+
+
+	}
+
+	.rubrique4:hover .apparition1_2_3{
+
+		opacity: 0.8;
+		
+
+
+
+		
+
+
+	}
+
+	.rubrique9:hover .apparition2_3{
+
+		opacity: 0.8;
+
+
+
+		
+
+
+	}
+
+	.rubrique9:hover .apparition1_2_3{
+
+		opacity: 0.8;
+		
+
+
+
+		
+
+
+	}
+
+	.rubrique5:hover .apparition2_3{
+
+		opacity: 0.8;
+
+
+
+		
+
+
+	}
+
+	.rubrique5:hover .apparition1_2_3{
+
+		opacity: 0.8;
+		
+
+
+
+		
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
