@@ -141,7 +141,10 @@ var table = [
 
 					var element = document.createElement( 'div' );
 					element.className = 'element';
-					element.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
+					element.style.backgroundColor = 'rgba(103,0,252,' + ( Math.random() * 0.5 + 0.25 ) + ')';
+
+
+				
 
 					var number = document.createElement( 'div' );
 					number.className = 'number';

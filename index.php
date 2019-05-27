@@ -49,7 +49,7 @@ font-size: 60px;text-transform: uppercase;color: #CBCBCB;margin-top: 50px">portf
 
 		<div class="col-xl-6 col-lg-6 col-sm-6 col-12" style="padding : 0px">
 
-			<a id="visible" href="project/periodic/periodic.html"><div id="photoPr3" >
+			<a id="visible" href="project/periodic/periodic.php"><div id="photoPr3" >
 				
 
 
