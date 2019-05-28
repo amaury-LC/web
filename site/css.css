@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "Supersonic Rocketship";
-	src: url("Font/Supersonic Rocketship.ttf");
+	src: url("../Font/Supersonic Rocketship.ttf");
 	font-weight: bold;
 
 }
@@ -182,7 +182,7 @@ a:link
 
 #photoPr{
 
-	background-image: url("img/730cd1f8-3ab2-4ef0-8573-8d39054f199f.jpg");
+	background-image: url("../img/730cd1f8-3ab2-4ef0-8573-8d39054f199f.jpg");
 	background-position: top; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: cover; /* Resize the background image to cover the entire container */
@@ -197,7 +197,7 @@ a:link
 
 #photoPr1{
 
-	background-image: url("img/Screenshot_2019-05-26 Screenshot.jpg");
+	background-image: url("../img/Screenshot_2019-05-26 Screenshot.jpg");
 	background-position: top; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: cover; /* Resize the background image to cover the entire container */
@@ -210,7 +210,7 @@ a:link
 }
 #photoPr2{
 
-	background-image: url("img/button.png");
+	background-image: url("../img/button.png");
 	background-position: top; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: cover; /* Resize the background image to cover the entire container */
@@ -223,7 +223,7 @@ a:link
 }
 #photoPr3{
 
-	background-image: url("img/Screenshot_2019-05-27 periodic.png");
+	background-image: url("../img/Screenshot_2019-05-27 periodic.png");
 	background-position: top; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: cover; /* Resize the background image to cover the entire container */

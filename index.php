@@ -1,4 +1,4 @@
-<?php include("menu.php"); ?>
+<?php include("site/menu.php"); ?>
 
 <center><h1 style="font-family: 'Supersonic Rocketship', Times, serif;
 font-size: 60px;text-transform: uppercase;color: #CBCBCB;margin-top: 50px">portfolio</h1></center>
@@ -10,7 +10,7 @@ font-size: 60px;text-transform: uppercase;color: #CBCBCB;margin-top: 50px">portf
 
 		<div class="col-xl-6 col-lg-6 col-sm-6 col-12" style="padding : 0px">
 
-			<a class="lien" href="project/foot_pommerit/index.php"><div id="photoPr">
+			<a class="lien" href="project/foot_pommerit/foot_pommerit.php"><div id="photoPr">
 				
 
 
@@ -23,7 +23,7 @@ font-size: 60px;text-transform: uppercase;color: #CBCBCB;margin-top: 50px">portf
 		</div>
 		<div class="col-xl-6 col-lg-8 col-sm-6 col-12" style="padding: 0px">
 
-			<a class="lien" href="project/pommerit/index.php"><div id="photoPr1">
+			<a class="lien" href="project/pommerit/pommerit.php"><div id="photoPr1">
 				
 
 
@@ -77,6 +77,13 @@ font-size: 60px;text-transform: uppercase;color: #CBCBCB;margin-top: 50px">portf
 
 
 </div>
+<div style="width: 100%;height: 200px;">
+	
+
+
+
+
+</div>
 
 
 
@@ -99,5 +106,4 @@ font-size: 60px;text-transform: uppercase;color: #CBCBCB;margin-top: 50px">portf
 
 
 
-
-<?php include("bas.php"); ?>
+<?php include("site/bas.php"); ?>
