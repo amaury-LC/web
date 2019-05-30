@@ -1,4 +1,4 @@
-<div class = "container">
+<!-- <div class = "container">
 
 	<div class="row" id="sous-menu-phone">
 
@@ -30,7 +30,23 @@
 
 
 
-</div>
+</div> -->
+
+<footer>
+
+	<ul id ="ul-footer">
+
+		<li id="ul-footer"><a id="visible" href="https://github.com/amaury-LC/"><div><p class = "titre_menu">GITHUB</p></div></a></li>
+		<!-- <div><p class = "titre_menu">BLOG</p></div> -->
+		
+
+
+
+
+	</ul>
+
+
+</footer>
 
 
 

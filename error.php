@@ -10,7 +10,7 @@
 	<meta name="title" content="Amaury Le Chaffotec Portfolio">
 	<meta name="description" content="portefolio amaury le chaffotec Création de sites Internet / Développement Web / Intégration " />
 	
-	<meta name="google" content="nositelinkssearchbox">
+
 	
 	
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -21,7 +21,7 @@
 </head>
 <body>
 
-	<header  >
+		<header>
 
 
 
@@ -46,3 +46,9 @@
 
 
 	</header>
+
+
+	<center><h1 style='font-family: "Supersonic Rocketship", Times, serif;margin-top: 200px'>Page Web inaccessible</h1></center>
+
+</body>
+</html>

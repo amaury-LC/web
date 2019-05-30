@@ -15,18 +15,57 @@ body{
 	display: block;
 }
 
-header{
 
-	width: 100%;
-	height: 58px;
+
+
+nav{
+
 	display: flex;
 	justify-content: space-between;
+	width: 100%;
+	height: 58px;
+
+
+
+}
+
+footer{
+
+	height: 100px;
+}
+
+#ul-footer{
+
+	list-style:none;
+	display: none
+
+
+
+
+	
+}
+
+#ul_h{
+
+	list-style:none;
+	display: flex;
+	justify-content: space-between;
+
+
+
+}
+
+li{
+
+	width: 100px;
 }
 
 a{
 
 	display: none;
 }
+
+
 
 #visible{
 
@@ -356,6 +395,11 @@ a:link
 
 
 @media only screen and (max-width:600px) {
+
+	#ul-footer{
+
+		display: block;
+	}
 
 
 

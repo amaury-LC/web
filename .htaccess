@@ -1,0 +1,16 @@
+
+# HTID:9617239: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:9617239:
+
+
+Options -Indexes
+
+
+#custom error docs
+
+ErrorDocument 400 https://amaury-le-chaffotec.000webhostapp.com/error.php
+ErrorDocument 401 https://amaury-le-chaffotec.000webhostapp.com/error.php
+ErrorDocument 403 https://amaury-le-chaffotec.000webhostapp.com/error.php
+
+ErrorDocument 404 https://amaury-le-chaffotec.000webhostapp.com/error.php
